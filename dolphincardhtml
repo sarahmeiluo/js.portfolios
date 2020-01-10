@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">    
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+</head>
+<body>
+	<!--Defines outer border and box around the animal's name, image, and information--> 
+	<div class="outercard"> 
+		<!--Header--> 
+		<h3 class="header">Bottlenose Dolphins</h3>
+		<!--Image width and height is set here-->
+		<img src="https://www.futurity.org/wp/wp-content/uploads/2017/11/dolphin-playing-ball_1600.jpg" class="dolphinimg" alt="Dolphin with ball" width=300px height=200px> 
+		<!--Defined box and border around animal's information-->
+		<div class="innerbox"> 
+				<!--Interesting fact-->
+				<p class= "fact"> Bottlenose dolphins travel in social groups and communicate with each other by a complex system of squeaks and whistles.  </p>
+					<ul>
+					<ul><span>Scientific Name</span>: Tursiops truncatus </ul>
+					<ul><span>Average Weight</span>: 1,100 lbs </ul>
+					<ul><span>Average Lifespan in the Wild</span>: 45 years </ul>
+					<ul><span>Diet</span>: Other kinds of fish</ul>
+					</ul>
+				<p> 
+				In the wild, these sleek swimmers can reach speeds of over 18 miles an hour. 
+				They surface often to breathe, doing so two or three times a minute. 
+				Schools have been known to come to the aid of an injured dolphin and help it to the surface.
+				</p>
+		</div>
+	</div>
+</body>
+</html>
