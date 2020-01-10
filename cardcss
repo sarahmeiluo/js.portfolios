@@ -1,0 +1,48 @@
+/* add your CSS here */
+h3 { font-weight: bold} /* Title for "Bottlenose Dolphins */
+
+/*Makes list labels bold*/
+span{
+    font-weight: bold;}
+
+/* Aligns unordered list to the left*/
+ul{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;}
+    
+/*Italicizes the interesting fact*/
+.fact{font-style: italic;}
+
+/*Defines a card width that is fixed and includes spacing around the image*/
+.outercard{
+    border: 1px solid lightgrey;
+    width: 320px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    font-family: sans-serif;}
+
+/*Creates box around the header in case it needs to be adjusted or moved*/
+.header{
+    border: 1px solid transparent;
+    text-align: left;
+    padding: 10px;
+    margin: auto;}
+
+/*Creates box around the image to define parameters and move around*/
+.dolphinimg{
+    border: 1px solid transparent;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px;}
+
+/*Box and border around animal's information*/
+.innerbox{
+    border: 1px solid lightgrey;
+    width: 280px;
+    padding: 10px;
+    margin: auto;
+    font-family: sans-serif;}
